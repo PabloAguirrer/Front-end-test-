@@ -1,0 +1,604 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+
+body{
+/*background-image: url("../imagenes/empanada-fondo.png");*/
+
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100%;
+background-attachment:fixed;
+background-color: #fafafa;
+
+}
+.modo-nocturno{
+  display: flex;
+  justify-content:space-around;
+}
+
+
+
+  /*puede ser un logo, titulo*/
+header{ 
+   width: 100vw;
+   
+   display: flex;                           /*flexbox*/
+   justify-content:space-around;    /*separacion entre los elementos cerca de los bordes*/
+    align-items: center;              /*alinea los elementos en el centro verticalmente(padre)*/                
+    flex-wrap: wrap;                            /**/
+
+    font-size: 35px;
+   
+    font-weight: 1;
+    text-shadow: 1px 0 #EAD5B6, 6px 0 black;
+    color: #E5B36E;
+    border: 5px solid rgb(197, 195, 195);
+    
+    }
+   
+    
+  
+ 
+  nav{
+    background-blend-mode: color;
+    display: flex;                       /*flexbox*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    font-style: italic;
+    font-family: monospace;
+    font-size: 2px;
+    color: black;
+    
+    }
+    
+
+    .barranav{
+      font-family: 'Annie Use Your Telescope', cursive;
+      
+    color: #8ad7e9;
+    font-size: 25px;
+    padding: 30px;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #000000;
+    -moz-box-shadow: 0px 1px 3px #000000;
+    box-shadow: 0px 1px 3px #000000;
+    text-shadow: 1px 1px 3px #faf3fa;
+    border: solid #ffffff 2px;
+    background-color: #a58b37;                    /*color de fondo*/
+     }
+    
+  .titulo{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+  }
+  .redeslogos{
+     
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+  }
+
+.logo-titulo{
+  width: 200px;
+  height: 200px;
+}
+
+/*.container-fluid{
+ 
+  display: flex; 
+  justify-content:space-around;} */
+
+.section{
+  
+  display:  flex;                      /*flexbox*/
+  flex-direction: column; 
+  justify-content:space-around;
+  align-items:center;
+  text-align: center;
+ 
+  
+  padding-left: 5%;
+  padding-right: 5%;
+ 
+  border: 5px solid rgb(197, 195, 195);
+  
+  
+   
+}
+
+.aside{
+  
+  display: flex;                 /*flexbox*/
+  flex-wrap: wrap;                     /**/
+  flex-direction: row;
+  align-items:center;         /*centra lo que esta dentro de la caja*/     
+  text-align: center;          /*centra texto,fotos,etc*/
+  justify-content:center;
+  
+
+  padding: 0 3%;
+  padding-bottom: 5%;
+  border: 5px solid rgb(197, 195, 195);
+
+  font-family: "Satisfy", "cursive";
+  font-weight: 1;
+      
+  color: #ED951A;
+   font-size: 40px;
+   
+  }
+
+   
+ 
+  footer{
+    
+    background-color: black;
+      
+    color: white;
+    display: flex;                      
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction:row;                  /*se ordenarán los elementos en el espacio de izquierda a derecha*/
+    align-items:center;
+
+  }
+
+h2{
+   
+  font-weight: 1;
+  color: #ED951A;
+  font-size: 60px;
+  font-family: "Satisfy", "cursive";
+  text-decoration: none;
+  padding-top: 8%;                                 /* padding separacion de x bordes*/
+  
+    
+}
+
+.h2-{
+  color: #ED951A;
+  font-size: 60px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  }
+
+  .h3-{
+    color: #E37119;
+    font-size: 25px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-decoration: underline;
+   
+    
+    
+  }
+
+.h3{
+  color: #E37119;
+  font-size: 25px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-decoration: underline;
+  
+  
+  
+  
+}
+.ul{
+    color: #B79F53;
+    text-shadow: 1px 0 #EAD5B6, 1px 0 black;
+    font-size: 25px;
+    
+    
+    
+  }
+    
+   
+    
+.ol{
+    color: #B79F53;
+    text-shadow: 1px 0 #EAD5B6, 1px 0 black;
+    font-size: 25px;
+    
+    
+   
+    
+
+  }
+.p{
+  color: #B79F53;
+  font-size: 25px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+  .p1{
+    color: #B79F53;
+    font-size:25px;
+    font-family: georgia;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+    
+  }
+
+.img1{
+  width:30%;
+  
+  border: 3px solid burlywood;
+  
+}
+.img2{
+  width:30%;
+  
+  border: 3px solid burlywood;
+   
+  }
+
+.img3{
+  width: 40%;
+  
+  border: 3px solid burlywood;
+ 
+  
+  
+  
+  
+}
+
+  .pfinal{
+    
+    font-family: georgia;
+    color:#B79F53;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+  }
+  .h3video{
+   
+    color: #B79F53;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+    
+    
+  }
+
+    .video1{
+      
+     
+    border: 3px solid burlywood;
+    width: 40%;
+    
+    
+    
+    }
+
+  .iframe2{
+    
+    border: 3px solid burlywood;
+    width: 40%;
+    
+    }
+
+  .ifram3{
+    
+    border: 3px solid burlywood;
+    width: 40%;
+    padding-bottom: 5%;
+    
+    
+   
+  }
+
+  .a1{
+    color: blue;
+    font-size: 40px;
+    font-family: fantasy;
+    text-shadow: 1px 0 #EAD5B6, 1px 0 white;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+  }
+  .a2{
+    color: blue;
+    font-size: 40px;
+    font-family: fantasy;
+    text-shadow: 1px 0 #EAD5B6, 1px 0 white;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+  }
+  .a3{
+    color: blue;
+    font-size: 40px;
+    font-family: fantasy;
+    text-shadow: 1px 0 #EAD5B6, 1px 0 white;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+  }
+    .h4{
+      
+      color: #B79F53;
+      font-size: 40px;
+      display: flex;
+    align-items: center;
+   justify-content:center;
+    }
+
+      .mas-recetas{
+        font-size: 50px;
+        padding-top:5%;
+        padding-bottom:5%;
+        
+      }
+      
+      .receta-derecha{
+        color: #B79F53;
+        font-size: 25px;
+        font-family: "Annie Use Your Telescope";
+        text-decoration: underline;
+        text-align: center;
+        width: 400px;
+        height: 400px;
+      }
+      
+      .img-mila{
+        width: 18rem;
+        
+       
+
+      }
+
+      .img-pastas{
+        width: 18rem;
+          
+      }
+      
+      .img-asado{
+        width: 18rem;
+        
+      }
+
+      .img-albondigas{
+        width: 18rem;
+      }
+
+      .img-hamburguesa{
+        width: 18rem;
+        
+      }
+      
+      .img-paella{
+        width: 18rem;
+      }
+
+      .img-arroz{
+        width: 18rem;
+      }
+
+        .img-polenta{
+          width: 18rem;
+        }
+
+      .cards{
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      
+    
+
+    .redeslogosfooter{
+     
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+  
+    }
+    
+
+     .logoface{
+       
+        width: 60px;
+        height: 60px;
+      }
+
+    .logotwitter{
+          
+          width: 60px;
+          height: 60px;
+         
+        }
+
+    .logoinsta{
+        width: 60px;
+        height: 60px;
+        
+        }
+
+        
+        .container-boton{
+          background-color: #2e6329;      /*color al ico*/
+          border: 1px solid #fff;
+          position: fixed;                   /*para dejarlo fijo*/
+          z-index: 999;                     /*para que este sobre todos*/
+          border-radius: 50%;              
+          bottom: 25px;                    /*distancia*/
+          right: 25px;                      /*distancia*/
+          padding: 25px;
+          transition: ease 0.3s;
+          animation: efecto 1.2s infinite;         /*efecto*/
+      }
+      
+      .container-boton:hover{
+          transform: scale(1.1);
+          transition: 0.3s;
+        
+      }
+      
+      .boton{
+          width: 45px;                 /*tamaño del boton */
+          transition: ease 1s;
+          
+      }
+      
+      @keyframes efecto{                                     /*animacion para el icono de whatsapp*/
+          0%{
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);      /*sombreado*/
+          }
+          100%{
+              box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+          }
+      }
+      a:link {                          /*pseudo*/
+        color: white;             /* para saber que un link no fue visitado(clickeado)*/
+        
+      }
+      
+      a:visited {                   /*para reconocer que un lugar fue visitado*/
+        color: #310464;
+      }
+      a:active {                       /*especifica el aspecto cuando mantienes el click*/
+        color: rgb(234, 237, 238);
+      }
+      
+      
+       a:hover{                        /*especifica el aspecto cuando el puntero esta sobre el*/
+        color:rgb(160, 11, 11) ;
+       }
+
+      .contacto:hover {
+        color:rgb(160, 11, 11) ;
+        width: 240px;
+        font-size: 20px;  
+      }
+      .card:hover{
+        
+        background-size:cover;
+        box-shadow: 0.5rem 0rem 7rem  rgb(76, 59, 172);
+
+      }
+      .gost{
+        color: #f0d16b;
+        display: flex;                           /*flexbox*/
+        justify-content:space-around;    /*separacion entre los elementos cerca de los bordes*/
+        align-items: center;              /*alinea los elementos en el centro verticalmente(padre)*/                
+        flex-wrap: wrap;                            /**/
+      }
+                                  
+      @media (min-width:575px){
+        .gost{                              /*cuando llegue a 575px aparecera el contenido*/
+          display: none;
+        }
+      }
+      
+      @media (max-width:575px){                
+        header{                            
+          border: none;                /*cuando llegue a 575px desaparecera el borde*/                 
+        }
+      }
+     
+
+      @media (max-width:768px) {
+        .titulo{                                      
+          
+          font-family: 'Fuggles', cursive;               /*tipo de letra*/
+          font-size: 150px;                               /*tamaño*/
+          color:#eec6ee ;  
+          text-align: center;           
+        }
+      }
+      @media (max-width:768px) {
+        .logo-titulo{
+          display: none;
+        }
+      }
+
+      @media (max-width:575px){
+        .audio{                              /*cuando llegue a 575px desaparecera el contenido*/
+          display: none;
+        }
+      }
+      
+      @media (max-width:575px){
+      nav{  
+                                        
+          flex-direction: column;         /* cuando llegue a 575px  el nav estara en columnas(verticalmente)*/
+          
+        }
+      }
+      
+      @media (max-width:768px){
+        .barranav{  
+                                    
+            background-color: #ecc2ee;
+            border: none;
+          }
+        }
+
+        @media (max-width:768px){
+          section{  
+            border: none;
+            justify-content:center;       /* cuando llegue a 768px se modificaran a estos valores*/
+            align-items:center;
+            text-align:center;                    
+            }
+          }
+          
+          @media (max-width:575px){                
+            .container-boton{                            
+              bottom: 70px;                    /*distancia*/
+              right: 10px;                      /*distancia*/
+                              
+            }
+          }
+          @media (max-width:575px){                
+            .boton{                        /*hasta 575 va a mantener el width */    
+             width: 25px;                 
+            }
+          }
+          @media (min-width:768px){                
+            .container-boton{                            
+              bottom: 150px;                    /*cuando tenga un minimo de 768px cambiara su posicion*/
+              
+                              
+            }
+          }
+          @media (min-width:992px){                
+            .container-boton{                            
+              bottom: 25px;                    /*cuando tenga un minimo de 992px cambiara su posicion*/
+              
+                              
+            }
+          }
+                              
+         
+
+        
+
+        @media (max-width:575px){
+          .redeslogos{                              /*cuando llegue a 575px aparecera el contenido*/
+            display: none;
+          }
+        }
+    
+    
